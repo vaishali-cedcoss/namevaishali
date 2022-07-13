@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> CUSTOM-FORM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+  h3.rv-km {
+    text-align: center;
+    font-size: 27px;
+}
+h5.rv-jmh {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 16px;
+    right: 2%;
+}
+.second-rv-box {
+    border: 1px solid;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th.rv-name {
+    position: relative;
+    right: 13%;
+}
+th.rv-email {
+    position: relative;
+    right: 13%;
+}
+th.rv-pass {
+    position: relative;
+    right: 11%;
+}
+th.jon-rv {
+    position: relative;
+    right: 19%;
+    top: 10px;
+}
+input#fname {
+    height: 20px;
+}
+th.rv\@ {
+    position: relative;
+    right: 19%;
+    top: 10px;
+}
+th.points {
+    position: relative;
+    right: 19%;
+    top: 10px;
+}
+th.rv-approve {
+    position: relative;
+    right: 7%;
+}
+th.rv-pick {
+    position: relative;
+    right: 11%;
+}
+th.rv-tx {
+    position: relative;
+    right: 11%;
+}
+th.rv-mulit {
+    position: relative;
+    right: 13%;
+}
+th.rv-fild {
+    position: relative;
+    right: 8%;
+}
+th.rv-fna {
+    position: relative;
+    right: 10%;
+}
+th.chake {
+    position: relative;
+    right: 22%;
+    top: 10px;
+}
+th.rv-chak-box {
+    position: relative;
+    right: 13%;
+    top: 10px;
+}
+th.radio {
+    position: relative;
+    right: 26%;
+    top: 10px;
+}
+th.list {
+    position: relative;
+    right: 25%;
+    top: 10px;
+}
+th.nub-rv {
+    position: relative;
+    right: 18%;
+    top: 10px;
+}
+th.nub-view {
+    position: relative;
+    right: 18%;
+    top: 10px;
+}
+</style>
+<body>
+<div style="background: orange;">
+  <h3 class="rv-km"> KM Custom HTML Form Example</h3> 
+  <h5 class="rv-jmh">
+    (by JMichaelTx)
+  </h5>
+    <div >
+    <table style="width: 53%; position:relative; left:26%; bottom: 24px;">
+      <form action="/action_page.php"></form>
+      <tr>
+        <th class="rv-name"> <label for="fname"> Name:</label></th>
+        <th class="jon-rv"> <input type="text" id="fname" name="fname" value="John"> <br>  <br> </th> 
+        
+      </tr>
+      <tr>
+        <th class="rv-email"><label for="fname">Email:</label></th>
+        <th class="rv@"><input type="text" id="fname" name="fname" value="John@Apple.com"> <br> <br></td>
+        
+      </tr>
+      <tr>
+        <th class="rv-pass"> <label for="fname">Password:</label></th>
+        <th class="points"><input type="text" id="fname" name="fname" value="......"> <br> <br></th>
+        
+      </tr>
+      <tr>
+        <th class="rv-approve"> <label for="fname">Approval Required:</label></th>
+        <th class="chake"><input type="checkbox" checked="checked"> Do You Approve<br> <br></th>
+        
+      </tr>
+
+      <tr>
+        <th class="rv-pick"> <label for="fname">Pick Your:</label></th>
+        <th class="rv-chak-box"> <input type="radio" id="html" name="fav_language" value="HTML">Choose A
+          <input type="radio" id="html" name="fav_language" value="HTML">Choose B
+          <input type="radio" id="html" name="fav_language" value="HTML">Choose C
+          <br> <br></th>
+        
+      </tr>
+      <tr>
+        <th class="rv-tx"> <label for="fname">Taxex TX:</label></th>
+        <th class="radio">
+          <select name="cars" id="box">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br> <br></th>
+        
+      </tr>
+      <tr>
+        <th class="rv-mulit"> <label for="fname">List:</label></th>
+      <th class="list">
+        <select name="cars" id="cars" size="4">
+          <option value="volvo">California</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br> <br></th>
+      
+    </tr>
+    <tr>
+      <th class="rv-fild"> <label for="fname">Filed Required:</label></th>
+      <th class="nub-rv"> <input type="text" id="fname" name="fname" value="10 384"> <br>  <br> </th> 
+      
+    </tr>
+    <tr>
+      <th class="rv-fna"> <label for="fname">Taxe Area:</label></th>
+      <th class="nub-view"> <input type="text" id="fname" name="fname" value="now this time good"> <br>  <br> </th> 
+      
+    </tr>
+    </form>
+    </table>
+  </div> 
+</div>
+</body>
+</html>
